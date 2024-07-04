@@ -5,10 +5,10 @@
     is the square of the int/float v and should be annotated
     as a float.
     '''
-from typing import Union
+from typing import Union, Tuple
 
 
-def to_kv(k: str, v:Union[int, float]) -> float:
+def to_kv(k: str, v:Union[int, float]) -> Tuple[str,float]:
     '''a function that returns a tuple
     '''
     return (k, float(v**2))
