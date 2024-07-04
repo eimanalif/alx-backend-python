@@ -11,7 +11,7 @@ def safe_first_element(lst):
 from typing import Any, Sequence, Union
 
 
-def safe_first_element(lst: Sequence[any]) -> Union[Any, None]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     ''' Retrieves the first element of a sequence if it exists.
     '''
     if lst:
